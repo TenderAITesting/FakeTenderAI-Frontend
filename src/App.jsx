@@ -109,7 +109,7 @@ export default function App() {
         {error ? <p className="error">{error}</p> : null}
 
         <div className="list-header">
-          <h2>Messages</h2>
+          <h2>Messages bis</h2>
           <button type="button" className="secondary-button" onClick={loadMessages}>
             Rafraichir
           </button>
